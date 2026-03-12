@@ -1,0 +1,13 @@
+text="python data science"
+print(text.upper())
+f=open("sample.txt","w")
+f.write(text)
+f.close()
+f=open("sample.txt","r")
+print(f.read())
+f.close()
+
+
+
+PYTHON DATA SCIENCE
+python data science
